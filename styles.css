@@ -1,0 +1,51 @@
+/*
+ * Stile für Tabellen
+ *
+ * table: Definiert die allgemeinen Stile für Tabellen.
+ * - border: Setzt einen 1px breiten, durchgehenden Rahmen mit der Farbe #b3adad.
+ * - border-collapse: Sorgt dafür, dass benachbarte Rahmen zu einem einzigen Rahmen zusammengefasst werden.
+ * - padding: Fügt einen Innenabstand von 5px hinzu.
+ */
+table {
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+}
+
+/*
+ * table th: Definiert die Stile für Tabellenüberschriften.
+ * - border: Setzt einen 1px breiten, durchgehenden Rahmen mit der Farbe #b3adad.
+ * - padding: Fügt einen Innenabstand von 5px hinzu.
+ * - background: Setzt den Hintergrund auf #f0f0f0.
+ * - color: Setzt die Textfarbe auf #313030.
+ */
+table th {
+    border:1px solid #b3adad;
+    padding:5px;
+    background: #f0f0f0;
+    color: #313030;
+}
+
+/*
+ * table td: Definiert die Stile für Tabellenzellen.
+ * - border: Setzt einen 1px breiten, durchgehenden Rahmen mit der Farbe #b3adad.
+ * - text-align: Richtet den Text linksbündig aus.
+ * - padding: Fügt einen Innenabstand von 5px hinzu.
+ * - background: Setzt den Hintergrund auf #ffffff.
+ * - color: Setzt die Textfarbe auf #313030.
+ */
+table td {
+    border:1px solid #b3adad;
+    text-align:left;
+    padding:5px;
+    background: #ffffff;
+    color: #313030;
+}
+
+/*
+ * .table-80: Definiert eine Klasse für Tabellen mit einer Breite von 80%.
+ * - width: Setzt die Breite auf 80%.
+ */
+.table-80 {
+    width:80%;
+}
