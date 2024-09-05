@@ -121,10 +121,6 @@ ALTER TABLE `tbl_film_actor`
   ADD CONSTRAINT `tbl_film_schauspieler_ibfk_2` FOREIGN KEY (`ActorID`) REFERENCES `tbl_actors` (`ActorID`);
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
 -- Einfügen von FSK-Daten
 INSERT INTO tbl_agelimit (AgeLimit) VALUES
                                            (0), (6), (12), (16), (18);
